@@ -1,0 +1,66 @@
+/* Fonts */
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazir.woff') format('woff'),
+        url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Bold.eot');
+    src: url('../fonts/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazir-Bold.woff') format('woff'),
+        url('../fonts/Vazir-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url('../fonts/Vazir-Light.eot');
+    src: url('../fonts/Vazir-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazir-Light.woff') format('woff'),
+        url('../fonts/Vazir-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+/* Main */
+* {
+    font-family: 'Vazir', sans-serif;
+}
+
+body {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.web {
+    background-color: #ffffff;
+    border-radius: 7.5px;
+    padding: 15px;
+}
+
+.home {
+    margin-top: 2rem;
+}
+
+/* Colors */
+.yellow {
+    color: #f0bd16;
+}
+
+.btn-yellow {
+    background-color: #f0bd16;
+    color: #000000;
+    font-size: 20px;
+}
+
+.btn-list {
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 3px solid #f0bd16;
+    color: #f0bd16;
+}
+
